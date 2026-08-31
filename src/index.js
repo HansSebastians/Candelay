@@ -7,7 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/Candelay">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/feature" element={<FeaturePage />} />

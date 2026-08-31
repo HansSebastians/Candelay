@@ -2,7 +2,7 @@
   "name": "Candelay",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io",
+  "homepage": "https://hanssebastians.github.io/Candelay",
   "dependencies": {
     "@base-ui/react": "^1.2.0",
     "@emotion/react": "^11.14.0",
