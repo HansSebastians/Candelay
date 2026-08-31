@@ -19,7 +19,7 @@
   margin: 20px 0px 0px 0px;
 }
 
-.tut-wrap::before {
+/* .tut-wrap::before {
   content: '';
   position: absolute;
   width: 320px;
@@ -29,7 +29,7 @@
   top: -100px;
   right: -100px;
   pointer-events: none;
-}
+} */
 
 .tut-left {
   display: flex;
