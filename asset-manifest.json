@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.b36ac78b.css",
-    "main.js": "/static/js/main.a8a994e5.js",
-    "index.html": "/index.html",
-    "main.b36ac78b.css.map": "/static/css/main.b36ac78b.css.map",
-    "main.a8a994e5.js.map": "/static/js/main.a8a994e5.js.map"
+    "main.css": "/Candelay/static/css/main.b36ac78b.css",
+    "main.js": "/Candelay/static/js/main.736d2004.js",
+    "index.html": "/Candelay/index.html",
+    "main.b36ac78b.css.map": "/Candelay/static/css/main.b36ac78b.css.map",
+    "main.736d2004.js.map": "/Candelay/static/js/main.736d2004.js.map"
   },
   "entrypoints": [
     "static/css/main.b36ac78b.css",
-    "static/js/main.a8a994e5.js"
+    "static/js/main.736d2004.js"
   ]
 }
