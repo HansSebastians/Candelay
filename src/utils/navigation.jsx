@@ -11,7 +11,7 @@ const navItems = [
   { to: "/about", label: "About Us" },
 ];
 
-const Navigation = () => {
+export default function Navigation() {
   const { pathname } = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -32,12 +32,12 @@ const Navigation = () => {
     <div className="nav-wrapper">
       <nav className="nav-bar">
         <div className="nav-logo">
-           <div className="nav-logo-icon">
+          <div className="nav-logo-icon">
             <Logo />
           </div>
           <span className="nav-logo-name">Candelay</span>
         </div>
-        
+
         <div className="nav-center">
           {navItems.map((item) => (
             <Link
@@ -98,5 +98,3 @@ const Navigation = () => {
     </div>
   );
 };
-
-export default Navigation;

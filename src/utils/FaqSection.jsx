@@ -21,7 +21,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-function FaqSection() {
+export default function FaqSection() {
   const [openFaq, setOpenFaq] = useState(null);
 
   return (
@@ -56,5 +56,3 @@ function FaqSection() {
     </section>
   );
 }
-
-export default FaqSection;

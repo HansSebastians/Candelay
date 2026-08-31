@@ -4,7 +4,7 @@ import "../css/Settingscard.css";
 
 const LANGUAGES = ["Indonesia", "English", "Other"];
 
-function SettingsCard() {
+export default function SettingsCard() {
   const [duration, setDuration] = useState("");
   const [language, setLanguage] = useState(LANGUAGES[0]);
 
@@ -48,5 +48,3 @@ function SettingsCard() {
     </div>
   );
 }
-
-export default SettingsCard;
