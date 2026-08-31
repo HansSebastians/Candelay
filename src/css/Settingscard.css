@@ -1,0 +1,100 @@
+.settings-card {
+  background-color: white;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.03),
+    0 4px 12px rgba(0, 0, 0, 0.06),
+    0 16px 40px rgba(0, 0, 0, 0.05),
+    0 0 0 1px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  padding: 28px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111;
+  letter-spacing: 0.2px;
+}
+
+.field-input {
+  padding: 11px 14px;
+  border: 1.5px solid #ebebeb;
+  border-radius: 11px;
+  font-size: 14px;
+  color: #111;
+  background-color: #fafafa;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.field-input:focus {
+  border-color: #bbb;
+  background-color: #fff;
+}
+
+.divider {
+  height: 1px;
+  background-color: #f2f2f2;
+}
+
+.language-group {
+  display: flex;
+  gap: 8px;
+}
+
+.lang-btn {
+  flex: 1;
+  padding: 9px 0;
+  border-radius: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: inherit;
+  border: none;
+}
+
+.lang-btn.active {
+  border: 1.5px solid #ccc;
+  font-weight: 600;
+  background-color: #f0f0f0;
+  color: #111;
+}
+
+.lang-btn.inactive {
+  border: 1.5px solid #ebebeb;
+  font-weight: 400;
+  background-color: #fafafa;
+  color: #999;
+}
+
+.cta-btn {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #7B5EA7;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+  font-family: inherit;
+}
+
+.cta-hint {
+  text-align: center;
+  font-size: 12px;
+  color: #bbb;
+  margin: 0;
+}
