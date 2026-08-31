@@ -1,4 +1,4 @@
-import "./TutorialAnimation.css";
+import "../css/TutorialAnimation.css";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "motion/react";
 

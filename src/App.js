@@ -4,7 +4,7 @@ import Navigation from "./utils/navigation";
 import Footers from "./utils/Footers";
 import AnimatedBackground from "./utils/AnimatedBackground";
 import { motion } from "motion/react";
-import TutorialAnimation from "./TutorialAnimation";
+import TutorialAnimation from "./utils/TutorialAnimation";
 import FaqSection from "./utils/FaqSection";
 
 function App() {
